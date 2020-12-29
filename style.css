@@ -51,7 +51,7 @@ a{
 }
 
 .bottom-background{
-  background: linear-gradient(hsl(264deg 56% 96%), hsl(0, 0%, 100%));
+  background-color: hsl(264deg 56% 96%);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 
