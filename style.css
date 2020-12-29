@@ -1,0 +1,374 @@
+body{
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin: 0;
+  min-height: 520px;
+  height: 520px;
+  color: hsl(270, 7%, 64%);
+
+  align-items: center;
+  position: static;
+
+  min-width: 370px;
+  overflow-x: hidden;
+}
+
+h1{
+  color: hsl(271, 36%, 24%);
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+a{
+  color: hsl(264, 100%, 61%);
+  text-decoration: none;
+}
+
+.about{
+  margin: 5% 10%;
+  position: static;
+  z-index: 1;
+}
+
+.about > p{
+  line-height: 1.8;
+}
+
+.top-background{
+  background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+
+  position: absolute;
+  right: 50%;
+  top: 0;
+
+  min-height: 550px;
+  width: 100%;
+
+  z-index: -1;
+}
+
+.bottom-background{
+  background-color: hsl(264deg 56% 96%);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: -50%;
+
+  margin: 0;
+
+  min-height: 750px;
+  width: 100%;
+
+  z-index: -1;
+}
+
+.celphone{
+  border-style: solid;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  border-width: 0;
+  box-shadow: gainsboro 10px 10px 30px;
+  position: static;
+  padding: 12px;
+
+  margin: 15% auto;
+  height: 500px;
+  width: 250px;
+}
+
+/* ---------- HEADER BEGIN ----------*/
+  .header{ /* Background */
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    color: white;
+    height: 15%;
+
+    position: relative;
+
+    z-index: 1;
+  }
+
+  .cam{
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 15px;
+    width: 60%;
+
+    position: relative;
+    top: -10px;
+    left: 50px;
+
+    grid-row: 1;
+    grid-column: span 4;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+
+    padding-left: 10px;
+
+    position: relative;
+    top: -10px;
+  }
+
+  .arrow{
+    width: 6%;
+  }
+
+  .contact-photo{
+    width: 25px;
+    border-radius: 50%;
+    border: white solid 1px;
+  }
+
+  .name-status{ /* Div with name and status */
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+  }
+
+  .name{
+    font-size: 0.6rem;
+    margin: 0 0 0 10px;
+
+    grid-row: 3;
+    grid-column: 3;
+  }
+
+  .status{
+    color: hsl(276, 100%, 81%);
+    font-size: 0.45rem;
+    margin: 0 0 0 10px;
+  }
+
+  .dots{
+    grid-row: 2;
+    grid-column: 4;
+  }
+/* ---------- HEADER END ---------- */
+
+.body{
+  background-color: hsl(270, 20%, 96%);
+  height: 86%;
+  margin: 0;
+
+  padding: 5px 10px;
+
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  position: relative;
+  bottom: 5px;
+  box-sizing: border-box;
+
+  z-index: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.balloon-1, .balloon-2, .balloon-6, .balloon-7, .balloon-8{
+  background-color:	#e5d5f9;
+  color: hsl(276, 55%, 52%);
+  font-size: 8px;
+  padding: 1px 15px 1px 7px;
+  text-align: left;
+  margin-top: 10px;
+
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  width: 58%;
+}
+
+.balloon-3{
+  background-color:	transparent;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.dog{
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 3px;
+}
+
+.balloon-4, .balloon-5{
+  background-color:	hsl(0, 0%, 100%);
+  color: grey;
+  font-size: 8px;
+  padding: 1px 5px 1px 7px;
+  text-align: left;
+  margin-top: 10px;
+
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  width: 55%;
+
+  align-self: flex-end;
+}
+
+.balloon-5{
+  width: 35%;
+}
+
+.balloon-7, .balloon-8{
+  background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  color: hsl(0, 0%, 100%);
+
+  text-align: left;
+  padding-right: 2px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 70%;
+}
+
+.circle{
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-right: 10px;
+
+  height: 10px;
+  width: 10px;
+  opacity: 20%;
+}
+
+.price{
+  margin-left: 38px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.text-box{
+  background-color:	hsl(0, 0%, 100%);
+  color: lightgrey;
+  font-size: 8px;
+  padding: 1px 5px 1px 15px;
+  text-align: left;
+  margin-top: 10px;
+
+  box-sizing: border-box;
+
+  border-radius: 15px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-send{
+  background-color: hsl(271, 36%, 24%);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 50%;
+  height: 24px;
+  width: 12%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution{
+  opacity: 60%;
+  font-size: 15px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.attribution > p{
+  margin: 1px;
+}
+
+.gi{
+  color: hsl(293, 100%, 63%);
+}
+
+@media screen and (min-width: 1225px) {
+  body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .top-background{
+    left: -100px;
+    min-height: 600px;
+    width: 550px;
+  }
+
+  .bottom-background{
+    top: 20%;
+    bottom: 0;
+    right: -200px;
+
+    min-height: 550px;
+    width: 550px;
+
+    z-index: -1;
+  }
+
+  .celphone{
+    margin: 10% auto 0 50%;
+
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .about{
+    margin: 0;
+    text-align: left;
+    width: 70%;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .attribution{
+    padding-bottom: 0;
+    grid-column: span 2;
+    grid-row: 2;
+
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+}
