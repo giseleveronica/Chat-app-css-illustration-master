@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   font-family: 'Rubik', sans-serif;
   text-align: center;
   margin: 0;
@@ -51,7 +51,7 @@ a{
 }
 
 .bottom-background{
-  background-color: hsl(264deg 56% 96%);
+  background: linear-gradient(hsl(264deg 56% 96%), hsl(0, 0%, 100%));
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 
